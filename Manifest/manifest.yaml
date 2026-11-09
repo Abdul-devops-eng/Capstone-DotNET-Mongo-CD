@@ -16,7 +16,7 @@ spec:
       serviceAccountName: webapps
       containers:
         - name: dotnet-noteapp
-          image: abdulrahimsheikh/noteapp:v7
+          image: abdulrahimsheikh/noteapp:v3
           ports:
             - containerPort: 5050
           env:
